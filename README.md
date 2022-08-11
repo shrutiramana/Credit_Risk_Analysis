@@ -57,6 +57,32 @@ The high_risk precision is about 0% only with 63% sensitivity which makes a F1 o
 Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 42%.
 
 
+### Balanced Random Forest Classifier
+
+![image](https://user-images.githubusercontent.com/98556229/184054074-3f7c926b-a9ad-4433-9e66-7415fe270159.png)
+
+![image](https://user-images.githubusercontent.com/98556229/184054089-1da6da2f-2eb2-46c9-86d6-c769ef649bf1.png)
+
+
+The balanced accuracy score is 82.6%.
+The high_risk precision is about 3% only with 77% sensitivity which makes a F1 of 6% .
+Due to the high number of the low_risk population, its precision is almost 99% with a sensitivity of 88%.
+
+
+### Easy Ensemble AdaBoost Classifier
+
+![image](https://user-images.githubusercontent.com/98556229/184054214-2b7149e5-2929-4b0a-b1aa-48faf8aa4f73.png)
+
+![image](https://user-images.githubusercontent.com/98556229/184054229-d23cb123-87c4-4e56-9729-7e2ca6b768e4.png)
+
+
+## Summary
+Six models Oversampling, Undersampling a, oversampled and combination of both , Balanced Random Forest Classifier and Easy Ensemble AdaBoost Classifier  to determine which is the best to predict the credit risk. For the first four models the accuracy score was not very high and also the high risk precision was also very low , indicating that they show that credit risk is high. The Ensemble models showed a lot of improvement in the accuracy to 92% and also it has low_risk precision to be 100% with recall of 95% and F1 is also 97%. Typically there should be a good balance of recall and precision.Easy Ensemble had the best balance of all. 
+
+
+
+
+
 
 
 
